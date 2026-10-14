@@ -263,22 +263,7 @@ Potential improvements include:
 - Deploying the database and raw data to AWS, using services such as Amazon RDS for PostgreSQL and Amazon S3.
 - Improving scalability and refresh efficiency as data volume grows.
 
-## Project Structure
 
-The exact directory structure may evolve as the project develops. A suggested organization is:
-
-```text
-ecommerce-analytics/
-├── data_csv/                 # Raw or prepared data files
-├── notebooks/                # Cleaning, EDA, and model experiments
-├── scripts/                  # Data loading and simulated live pipeline
-├── sql/                      # Schema, analytical queries, and views
-├── models/                   # Saved model pipeline
-├── powerbi/                  # Power BI report
-├── screenshots/              # Dashboard and model evaluation images
-├── README.md
-└── requirements.txt
-```
 
 ## Getting Started
 
@@ -319,13 +304,6 @@ This project uses the **Brazilian E-Commerce Public Dataset by Olist**, containi
 
 The dataset is used for learning and analytical demonstration. All findings are specific to the available historical data and should not automatically be generalized to other e-commerce businesses.
 
-## Author
 
-**Oumnia Boumadjou**  
-Smart Systems Engineering graduate | Data Science & Data Analytics
-
-Interested in data-driven problem solving, machine learning, and building practical analytics solutions.
-
-## License
 
 See the `LICENSE` file for the licensing terms applicable to this project. Third-party datasets, libraries, and assets remain subject to their respective licenses and terms.

@@ -1,18 +1,18 @@
-# Virtual Environment
+# Virtual environment
 venv/
-.env/
-
-# Data files
-data/raw/*.csv
-data/processed/
 
 # Python cache
 __pycache__/
 *.pyc
 
-# VS Code
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw data (large files, don't push to GitHub)
+data/raw/*.csv
+
+# OS/editor junk
+.DS_Store
 .vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
+models/*.pkl
